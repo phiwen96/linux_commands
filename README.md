@@ -10,3 +10,13 @@ System wide C++ change on Ubuntu:
 
   sudo apt-get install clang
   sudo update-alternatives --config c++
+
+
+Locating iostream in Clang++: fatal error: 'iostream' file not found:
+  Firstly find your version (path): 
+    ls /usr/include/c++/
+    
+  Output:
+    8
+  Then:
+    export CPLUS_INCLUDE_PATH=/usr/include/c++/8:/usr/include/x86_64-linux-gnu/c++/8
