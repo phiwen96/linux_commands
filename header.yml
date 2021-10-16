@@ -1,0 +1,30 @@
+---
+  title:
+    "cv"
+  subtitle:
+    kuk hora
+  author: 
+    - Philip Wenkel
+  year: 
+    2021
+  pandoc-latex-color:
+    - classes: [important]
+  color: yellow
+  bgcolor: blue
+
+  header-includes:
+  - \usepackage{hyperref}   
+  - \hypersetup{
+    colorlinks=true,
+    linkcolor=cyan,
+    linkbordercolor=red,
+    urlbordercolor=cyan,
+    filebordercolor=magenta,
+    citebordercolor=green}
+
+  - \usepackage{pagecolor}
+  - \pagecolor{black}
+
+  - \usepackage{xcolor}
+  - \color{white}
+---
